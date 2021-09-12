@@ -23,6 +23,14 @@ License URI:
 / 1. Mobile Responsive. Responsive For Extra Small Device like: Mobile, Iphone etc
 --------------------------------------------------------------------------------------*/
 @media (min-width: 320px) and (max-width: 767px){
+ html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
     .mainmenu{
         padding: 0;
         margin: 0 -15px;
