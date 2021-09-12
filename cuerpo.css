@@ -1,24 +1,5 @@
 
 
-:root{
-    --font1: 'Overpass', sans-serif;
-    --font2:  'Ubuntu', sans-serif;
-    --gradient-very-light-red:  hsl(13, 100%, 72%);
-    --gradient-light-red: hsl(353, 100%, 62%);
-    --gradient-v-gray-blue:  hsl(237, 17%, 21%);
-    --gradient-v-d-desatured-blue:  hsl(237, 23%, 32%) ;
-
-
-    --padding-container: 80px 0;
-    --color-grayish-blue: hsl(240, 2%, 79%);
-    --color-white: #fff;
-    --color-l-red:  hsl(356, 100%, 66%);
-    --color-v-l-red:  hsl(355, 100%, 74%);
-    --color-v-blue: hsl(208, 49%, 24%);
-    --color-v-d-grayish-blue :hsl(207, 13%, 34%);
-    --color-v-d-black-blue:hsl(240, 10%, 16%);
-}
-
 
 
 .none{
@@ -384,20 +365,3 @@
     }
 
 
-    /* ------------------ */
-
-    .footer__container{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        justify-content: space-between;
-        justify-items: center;
-        
-    }
-
-    .footer__links{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        margin: 0;
-    }
-}
