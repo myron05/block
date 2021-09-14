@@ -42,6 +42,16 @@
     overflow: hidden;
     padding: var(--padding-container);
 }
+}
+.designed{
+    background-image: url(images/galaxia.png);
+     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.infrastructure{
+    background-color: #000;
+}
 
 .nav{
     display: grid;
